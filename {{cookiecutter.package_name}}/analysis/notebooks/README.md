@@ -1,0 +1,1 @@
+Jupyter notebooks for exploratory analysis should be stored here. Naming convention is a number (for ordering), the creator's initials, and a short `-` delimited description, e.g., `1-jah-initial-data-exploration`.

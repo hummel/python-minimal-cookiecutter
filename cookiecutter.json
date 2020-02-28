@@ -1,0 +1,14 @@
+{
+    "project_name": "My Python Package",
+    "author_name": "Your name",
+    "author_email": "Your email",
+    "short_description": "Your brief project description ...",
+
+    "package_name": "{{cookiecutter.project_name|lower|replace(' ', '_')}}",
+    "package_version": "0.0.0",
+    "git_url": "http://github.com/YOUR-USERNAME-HERE",
+    "project_url": "{{cookiecutter.git_url}}/{{cookiecutter.package_name|replace('_', '-')}}",
+
+    "docker_base_image": "continuumio/miniconda:latest",
+    "docker_image_name": "{{cookiecutter.package_name}}"
+}
